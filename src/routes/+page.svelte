@@ -37,6 +37,11 @@
             <a href="https://github.com/vedal789/antimony-home/issues" style="color: white;"><p>Report an issue</p></a>
             <a href="https://discord.gg/CeJVMHXhCP" style="color: white;"><p>Discord</p></a>
         </div>
+
+        <div class="footer-column">
+            <h4>Funding</h4>
+            <a href="support" style="color: white;"><p>Antimony</p></a>
+        </div>
         
     </div>
 </div>
