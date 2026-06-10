@@ -8,7 +8,7 @@
     <body>
         <div class="thingy">
             <h1>Antimony</h1>
-            <p>Antimony is a a block-based video editing tool, built for newbies and power users.</p>
+            <p>Antimony is a block-based video editing tool, built for newbies and power users.</p>
 
             <div class="center-wrapper-thingy">
                 <Button 
