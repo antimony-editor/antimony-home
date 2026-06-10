@@ -70,3 +70,9 @@ Retrieved 2026-06-09, License - CC BY-SA 4.0
 .footer-column {
     min-width: 120px;
 }
+
+hr.rounded {
+  border-top: 4px solid #bbb;
+  border-radius: 2px;
+  opacity: 0.5;
+}

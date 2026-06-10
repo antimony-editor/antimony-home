@@ -25,7 +25,7 @@
 			  position: sticky;
         top: 0;
         background-color: rgb(24, 22, 100);
-        padding: 1rem;
+        padding: 0.5rem;
         text-align: center;
     }
     .content{

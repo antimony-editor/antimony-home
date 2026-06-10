@@ -12,7 +12,7 @@
 
             <div class="center-wrapper-thingy">
                 <Button 
-                icon="startcreating.svg"
+                icon="startcreating.svg" // lucide my wife :3
                 label="Start Creating!" 
                 highlighted={true} 
                 link="https://antimony-editor.github.io/editor/" 
