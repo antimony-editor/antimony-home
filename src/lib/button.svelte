@@ -67,7 +67,7 @@
         outline-style: solid;
         outline-color: rgba(55, 0, 255, 0.35);
         color: white;
-        background-color: #3700ff;
+        background-color: #0011ff;
         cursor: pointer;
         display: flex;
         flex-direction: row;
@@ -79,7 +79,7 @@
     .button-highlight {
         outline: 0px;
         background-color: white;
-        color: #3700ff;
+        color: #0011ff;
     }
     .button-toggled {
         background-color: transparent !important;
