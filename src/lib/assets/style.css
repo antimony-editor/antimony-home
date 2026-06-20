@@ -38,6 +38,10 @@ small {
     font-size: 0.8em;
 }
 
+a {
+    color: #86C5DB;
+}
+
 .flex-wrapper {
   display: flex;
   min-height: 51vh;

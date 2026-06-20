@@ -15,10 +15,10 @@
                 icon="download.svg" // lucide my wife :3
                 label="Download" 
                 highlighted={true} 
-                link="" 
+                link="https://github.com/antimony-editor/editor/releases" 
         />
     </div>
-    <small>Downloads are currently unavailable.</small>
+    <small>Antimony Desktop is currently in public alpha. <a href="https://github.com/antimony-editor/editor/issues">Your feedback would help us!</a></small>
 
     <div class="desktop-screenshot">
         <img src="desktop.png" alt="A screenshot of Antimony Desktop">
@@ -57,11 +57,6 @@
             <a href="https://github.com/vedal789/antimony-home/issues" style="color: white;"><p>Report an issue</p></a>
             <a href="https://www.youtube.com/channel/UCuC_CpmCqhKV6g0I33s6PJQ" style="color: white;"><p>YouTube</p></a>
             <a href="https://discord.gg/CeJVMHXhCP" style="color: white;"><p>Discord</p></a>
-        </div>
-
-        <div class="footer-column">
-            <h4>Funding</h4>
-            <a href="support" style="color: white;"><p>Antimony</p></a>
         </div>
         
     </div>
@@ -124,11 +119,6 @@
         border-radius: 50%;
         margin-right: 15px;
         object-fit: cover;
-    }
-
-    .all-lists span {
-        font-size: 1.1rem;
-        font-weight: 500;
     }
     .feature-thingyyy {
         display: flex;

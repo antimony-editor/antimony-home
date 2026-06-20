@@ -30,7 +30,7 @@
         <button
             class={(highlighted ? "button button-highlight" : "button") +
                 (color ? ` ${color}` : "")}
-            on:click={event}
+            onclick={event}
         >
             {#if icon}
                 <img src={`/${icon}`} alt={icon} style="margin-right:6px;" />
@@ -45,7 +45,7 @@
         class={(highlighted ? "button button-highlight" : "button") +
             (color ? ` ${color}` : "") +
             (toggled ? " button-toggled" : "")}
-        on:click={event}
+        onclick={event}
     >
         {#if icon}
             <img src={`/${icon}`} alt={icon} style="margin-right:6px;" />
