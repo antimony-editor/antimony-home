@@ -5,7 +5,7 @@ export default defineConfig({
 	plugins: [sveltekit()],
 	server: {
       port: 7890
-    }
+    },
 	build: {
     	outDir: 'build'
   }
