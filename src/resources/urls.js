@@ -22,7 +22,7 @@ export default {
     /**
      * Antimony's Discord invite
      */
-    discord: "https://discord.gg/CeJVMHXhCP",
+    discord: "https://discord.gg/ZkcJZPxuZt",
 
     /**
      * Antimony's github page
