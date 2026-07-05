@@ -11,6 +11,7 @@
 
     <section class="block">
         <h2>Active Contributors</h2>
+        <p>Thanks to the people, Antimony was able to be built!</p>
         <ul class="contributor-list">
             <li>
                 <img src="https://github.com/Gen1xLol.png" alt="Gen1xLol's avatar">
@@ -50,10 +51,38 @@
                 <img class="host-pfp" src="https://github.com/lordcat0.png" alt="lordcat0's avatar">
                 <p class="host-text">
                     Antimony's backend API is currently developed and hosted by
-                    <a href="https://github.com/lordcat0">lordcat</a>.
+                    <a href="https://github.com/lordcat0">LordCat0</a>.
                 </p>
             </div>
         </div>
+    </section>
+
+    <section class="block">
+        <h2>Other Cool Projects</h2>
+        <p>Heres a list of other cool block-coding websites.</p>
+        <ul class="contributor-list less-circular">
+            <li>
+                <img src="https://github.com/Rarry-Blocks.png" alt="Rarry's icon">
+                <a href="https://github.com/Rarry-Blocks">Rarry</a>
+                <p>Contributor</p>
+            </li>
+            <li>
+                <img src="https://github.com/scratchfoundation.png" alt="Scratch Foundation's icon">
+                <a href="https://github.com/scratchfoundation">scratchfoundation</a>
+            </li>
+            <li>
+                <img src="https://github.com/ClampProject.png" alt="Clamp's icon">
+                <a href="https://github.com/ClampProject">Clamp</a>
+            </li>
+            <li>
+                <img src="https://github.com/PenguinMod.png" alt="PenguinMod's icon">
+                <a href="https://github.com/PenguinMod">PenguinMod</a>
+            </li>
+            <li>
+                <img src="https://github.com/Nitro-Bolt.png" alt="NitroBolt's icon">
+                <a href="https://github.com/Nitro-Bolt">NitroBolt</a>
+            </li>
+        </ul>
     </section>
 </main>
 
@@ -80,9 +109,16 @@
         padding: 0;
     }
 
+    .contributor-list p {
+        margin: 0;
+        font-size: 13px;
+        color: var(--text-secondary);
+    }
+
     .contributor-list li {
         display: flex;
         align-items: center;
+        justify-content: flex-start;
         gap: var(--space-md);
         background: var(--bg-primary);
         border: 1px solid var(--border-default);
@@ -102,6 +138,10 @@
         border-radius: 50%;
         object-fit: cover;
         flex-shrink: 0;
+    }
+
+    .contributor-list.less-circular img {
+        border-radius: 25%;
     }
 
     .contributor-list a {
