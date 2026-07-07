@@ -11,7 +11,7 @@
 
     <section class="block">
         <h2>Active Contributors</h2>
-        <p>Thanks to the people, Antimony was able to be built!</p>
+        <p>Thanks to these people and teams, Antimony was able to be built!</p>
         <ul class="contributor-list">
             <li>
                 <img src="https://github.com/Gen1xLol.png" alt="Gen1xLol's avatar">
@@ -41,6 +41,10 @@
                 <img src="https://github.com/PuzzlingGGG.png" alt="PuzzlingGGG's avatar">
                 <a href="https://github.com/PuzzlingGGG">PuzzlingGGG</a>
             </li>
+            <li>
+                <img src="https://github.com/Rarry-Blocks.png" alt="Rarry's icon">
+                <a href="https://github.com/Rarry-Blocks">Rarry Blocks</a>
+            </li>
         </ul>
     </section>
 
@@ -55,34 +59,6 @@
                 </p>
             </div>
         </div>
-    </section>
-
-    <section class="block">
-        <h2>Other Cool Projects</h2>
-        <p>Heres a list of other cool block-coding websites.</p>
-        <ul class="contributor-list less-circular">
-            <li>
-                <img src="https://github.com/Rarry-Blocks.png" alt="Rarry's icon">
-                <a href="https://github.com/Rarry-Blocks">Rarry</a>
-                <p>Contributor</p>
-            </li>
-            <li>
-                <img src="https://github.com/scratchfoundation.png" alt="Scratch Foundation's icon">
-                <a href="https://github.com/scratchfoundation">scratchfoundation</a>
-            </li>
-            <li>
-                <img src="https://github.com/ClampProject.png" alt="Clamp's icon">
-                <a href="https://github.com/ClampProject">Clamp</a>
-            </li>
-            <li>
-                <img src="https://github.com/PenguinMod.png" alt="PenguinMod's icon">
-                <a href="https://github.com/PenguinMod">PenguinMod</a>
-            </li>
-            <li>
-                <img src="https://github.com/Nitro-Bolt.png" alt="NitroBolt's icon">
-                <a href="https://github.com/Nitro-Bolt">NitroBolt</a>
-            </li>
-        </ul>
     </section>
 </main>
 
@@ -109,12 +85,6 @@
         padding: 0;
     }
 
-    .contributor-list p {
-        margin: 0;
-        font-size: 13px;
-        color: var(--text-secondary);
-    }
-
     .contributor-list li {
         display: flex;
         align-items: center;
@@ -135,13 +105,9 @@
     .contributor-list img {
         width: 40px;
         height: 40px;
-        border-radius: 50%;
+        border-radius: 25%;
         object-fit: cover;
         flex-shrink: 0;
-    }
-
-    .contributor-list.less-circular img {
-        border-radius: 25%;
     }
 
     .contributor-list a {
@@ -163,7 +129,7 @@
     .host-pfp {
         width: 64px;
         height: 64px;
-        border-radius: 50%;
+        border-radius: 25%;
         object-fit: cover;
         flex-shrink: 0;
     }
